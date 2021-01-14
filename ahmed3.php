@@ -28,9 +28,3 @@ bot('sendMessage',[
 'text'=>"$text"
 ]);
 }
-if($text == "hi"){
-bot('sendmessage',[
-'chat_id'=>$chat_id,
-'text'=>'اهلا يا صديق كيف يمكنني مساعدتك'
-]);
-}
